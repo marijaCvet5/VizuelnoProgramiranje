@@ -32,10 +32,10 @@
    * Класи: Shape и ShapeGame.
    
      Form2: Тука имаме две копчиња btnForms и btnTasks
-private void btnForms_Click(object sender, EventArgs e). Кога ќе се кликне копчето, се создава инстанца на формата ShapesTasks и таа се прикажува.
+private void btnForms_Click(object sender, EventArgs e). Кога ќе се кликне копчето се прикажува формата ShаpeTasks.
 ShapesTasks shapesTasks = new ShapesTasks();: Оваа линија создава нов објект од класата ShapesTasks.
 shapesTasks.Show();: Оваа линија ја прикажува формата ShapesTasks.
-private void btnTasks_Click(object sender, EventArgs e). Кога ќе се кликне копчето, се создава инстанца на формата MathTasks и таа се прикажува.
+private void btnTasks_Click(object sender, EventArgs e). Кога ќе се кликне копчето се прикажува формата MathTasks.
 MathTasks mathTasks = new MathTasks();: Оваа линија создава нов објект од формата MathTasks.
 mathTasks.Show();: Оваа линија ја прикажува формата MathTasks.
 Класата MathQuiz2: Претставува форма со две копчиња.
