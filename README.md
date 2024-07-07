@@ -39,8 +39,6 @@ private void btnTasks_Click(object sender, EventArgs e). Кога ќе се кл
 MathTasks mathTasks = new MathTasks();: Оваа линија создава нов објект од формата MathTasks.
 mathTasks.Show();: Оваа линија ја прикажува формата MathTasks.
 Класата MathQuiz2: Претставува форма со две копчиња.
-Ракувач на настан btnForms_Click: Ja отвора формата ShapesTasks кога ќе се кликне копчето btnForms.
-Ракувач на настан btnTasks_Click: Ja отвора формата MathTasks кога ќе се кликне копчето btnTasks.
 Оваа структура му овозможува на корисникот да се движи помеѓу различни задачи (поврзани со форми и поврзани со математика) во рамките на апликацијата со кликање на соодветните копчиња.
 
 MathTasks: 
